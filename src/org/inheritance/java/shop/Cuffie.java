@@ -10,7 +10,7 @@ public class Cuffie extends Prodotto{
 		this.isWireless = isWireless;
 	}
 	
-	public String getCOlor() {
+	public String getColor() {
 		return color;
 	}
 	

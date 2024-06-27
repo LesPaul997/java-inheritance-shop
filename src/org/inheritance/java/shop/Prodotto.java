@@ -74,4 +74,15 @@ public class Prodotto {
 		return code + "-" + name;
 	}
 	
+	@Override
+	public String toString() {
+		return "Prodotto{" +
+				"codice=" + code +
+                ", nome='" + name + '\'' +
+                ", marca='" + brand + '\'' +
+                ", prezzo=" + price +
+                ", iva=" + tax +
+                '}';	
+	}
+	
 }

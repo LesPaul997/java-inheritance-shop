@@ -25,4 +25,17 @@ public class Televisore extends Prodotto{
 	public void setSmart(boolean isSmart) {
 		this.isSmart = isSmart;
 	}
+	
+	 @Override
+	    public String toString() {
+	        return "Televisore{" +
+	                "codice=" + getCode() +
+	                ", nome='" + getName() + '\'' +
+	                ", marca='" + getBrand() + '\'' +
+	                ", prezzo=" + getPrice() +
+	                ", iva=" + getTax() +
+	                ", dimensioni=" + dimensions +
+	                ", isSmart=" + isSmart +
+	                '}';
+	    }
 }
